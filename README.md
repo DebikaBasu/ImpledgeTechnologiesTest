@@ -21,8 +21,21 @@ java WordCompositionOptimized
 This repository contains Java solution for solving the Word Composition problem. The goal is to identify the longest and second-longest compound words in a given list of words from input files.
 
 
-## Problem Description
-The Word Composition problem involves determining whether a word can be formed by concatenating two or more other words from a list. This program uses a brute-force approach to find the longest and second-longest compound words within the list.
+## Problem Statement
+
+Write a program that :
+
+- Reads provided files (Input_01.txt and Input_02.txt) containing alphabetically sorted words list (one
+word per line, no spaces, all lower case)
+
+- Identifies & display below given data in logs/console/output file
+  - longest compounded word
+  - second longest compounded word
+  - time taken to process the input file
+
+- Note: A compounded word is one that can be constructed by combining (concatenating) shorter words
+also found in the same file.
+
 ## Input
 
 * Input_01.txt
